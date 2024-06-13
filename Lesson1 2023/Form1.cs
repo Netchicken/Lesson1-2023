@@ -16,5 +16,12 @@ namespace Lesson1_2023
         {
             InitializeComponent();
         }
+
+        private void btnGenerateDetails_Click(object sender, EventArgs e)
+        {
+            lblOutput.Text = txtFirstName.Text + " " + txtLastName.Text;
+         
+
+        }
     }
 }
