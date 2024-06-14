@@ -44,7 +44,7 @@
             this.lblTitle.AutoSize = true;
             this.lblTitle.BackColor = System.Drawing.Color.MistyRose;
             this.lblTitle.Font = new System.Drawing.Font("Magneto", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitle.Location = new System.Drawing.Point(99, 25);
+            this.lblTitle.Location = new System.Drawing.Point(12, 25);
             this.lblTitle.Name = "lblTitle";
             this.lblTitle.Size = new System.Drawing.Size(603, 41);
             this.lblTitle.TabIndex = 0;
@@ -52,7 +52,7 @@
             // 
             // txtFirstName
             // 
-            this.txtFirstName.Location = new System.Drawing.Point(106, 110);
+            this.txtFirstName.Location = new System.Drawing.Point(19, 110);
             this.txtFirstName.Name = "txtFirstName";
             this.txtFirstName.Size = new System.Drawing.Size(173, 20);
             this.txtFirstName.TabIndex = 1;
@@ -60,7 +60,7 @@
             // 
             // txtAge
             // 
-            this.txtAge.Location = new System.Drawing.Point(106, 204);
+            this.txtAge.Location = new System.Drawing.Point(19, 204);
             this.txtAge.Name = "txtAge";
             this.txtAge.Size = new System.Drawing.Size(173, 20);
             this.txtAge.TabIndex = 2;
@@ -68,7 +68,7 @@
             // 
             // txtLastName
             // 
-            this.txtLastName.Location = new System.Drawing.Point(106, 159);
+            this.txtLastName.Location = new System.Drawing.Point(19, 159);
             this.txtLastName.Name = "txtLastName";
             this.txtLastName.Size = new System.Drawing.Size(173, 20);
             this.txtLastName.TabIndex = 3;
@@ -77,7 +77,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(106, 91);
+            this.label1.Location = new System.Drawing.Point(19, 91);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(57, 13);
             this.label1.TabIndex = 4;
@@ -86,7 +86,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(106, 188);
+            this.label2.Location = new System.Drawing.Point(19, 188);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(26, 13);
             this.label2.TabIndex = 5;
@@ -95,7 +95,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(106, 143);
+            this.label3.Location = new System.Drawing.Point(19, 143);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(58, 13);
             this.label3.TabIndex = 6;
@@ -103,19 +103,20 @@
             // 
             // btnGenerateDetails
             // 
+            this.btnGenerateDetails.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.btnGenerateDetails.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGenerateDetails.Location = new System.Drawing.Point(317, 110);
+            this.btnGenerateDetails.Location = new System.Drawing.Point(230, 110);
             this.btnGenerateDetails.Name = "btnGenerateDetails";
             this.btnGenerateDetails.Size = new System.Drawing.Size(201, 114);
             this.btnGenerateDetails.TabIndex = 7;
             this.btnGenerateDetails.Text = "Generate Details";
-            this.btnGenerateDetails.UseVisualStyleBackColor = true;
+            this.btnGenerateDetails.UseVisualStyleBackColor = false;
             this.btnGenerateDetails.Click += new System.EventHandler(this.btnGenerateDetails_Click);
             // 
             // lblOutput
             // 
             this.lblOutput.AutoSize = true;
-            this.lblOutput.Location = new System.Drawing.Point(108, 231);
+            this.lblOutput.Location = new System.Drawing.Point(21, 231);
             this.lblOutput.Name = "lblOutput";
             this.lblOutput.Size = new System.Drawing.Size(39, 13);
             this.lblOutput.TabIndex = 8;
@@ -125,7 +126,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(769, 279);
+            this.ClientSize = new System.Drawing.Size(615, 279);
             this.Controls.Add(this.lblOutput);
             this.Controls.Add(this.btnGenerateDetails);
             this.Controls.Add(this.label3);
