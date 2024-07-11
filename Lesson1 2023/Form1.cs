@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -30,6 +31,24 @@ namespace Lesson1_2023
             lblOutput.Text = "Hi " + txtFirstName.Text + " " + txtLastName.Text + ". You are " + age + " years old. What would you like to do today?";
 
             MessageBox.Show("Hi " + txtFirstName.Text + " " + txtLastName.Text + ". You are " + age + " years old. What would you like to do today?");
+
+
         }
+       
+        //private void SomeMethod()
+        //{
+        //    AnotherMethod();
+        //}
+      /*  private void AnotherMethod()
+        {
+            AThirdMethod();
+        }
+        private void AThirdMethod()
+        {
+
+        }
+      */
     }
+
+
 }
